@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: awsapp_production
-  username: awsapp
-  password: <%= ENV['AWSAPP_DATABASE_PASSWORD'] %>
+  database: diveawsexam_production
+  username: diveawsexam
+  password: <%= ENV['DIVEAWSAXEAM_DATABASE_PASSWORD'] %>
