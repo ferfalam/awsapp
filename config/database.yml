@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: awsapp_production
-  username: awsapp
-  password: <%= ENV['AWSAPP_DATABASE_PASSWORD'] %>
+  database: sample_production
+  username: sample
+  password: <%= ENV['SAMPLE_DATABASE_PASSWORD'] %>
